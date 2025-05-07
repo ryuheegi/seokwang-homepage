@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서광산업</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #ffffff;
+      color: #2D3B47;
+    }
+    header {
+      background-color: #2D3B47;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://sk3184.modoo.at/img/bg-main.jpg') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-left: 5px solid #A88252;
+      padding-left: 15px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #2D3B47;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><strong>서광산업</strong></div>
+    <nav>
+      <a href="#about">회사소개</a>
+      <a href="#products">제품소개</a>
+      <a href="#contact">문의하기</a>
+      <a href="#location">오시는 길</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>용접망 · 철망 전문 제조기업<br>서광산업</h1>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section-title">회사소개</h2>
+    <p>서광산업은 용접망, 용접철망, 각종 철망 및 익스펜디드 메탈, 헨스 등의 제품을 전문적으로 생산, 납품하는 기업입니다. 고급 자재와 정밀한 시공으로 고객의 다양한 니즈를 충족합니다.</p>
+  </section>
+
+  <section class="section" id="products">
+    <h2 class="section-title">제품소개</h2>
+    <div class="product-grid">
+      <div class="product-card">용접망</div>
+      <div class="product-card">용접철망</div>
+      <div class="product-card">익스펜디드 메탈</div>
+      <div class="product-card">헨스</div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2 class="section-title">문의하기</h2>
+    <p><strong>대표:</strong> 류경환<br>
+    <strong>전화:</strong> 031-431-3188<br>
+    <strong>휴대폰:</strong> 010-3711-3184<br>
+    <strong>이메일:</strong> ejkim3184@naver.com</p>
+  </section>
+
+  <section class="section" id="location">
+    <h2 class="section-title">오시는 길</h2>
+    <p>경기도 안산시 단원구 만해로 205<br>타원타크라 3차 C동 114호 (성곡동 645)</p>
+    <!-- 추후 구글 지도 삽입 가능 -->
+  </section>
+
+  <footer>
+    &copy; 2025 서광산업. All rights reserved.
+  </footer>
+</body>
+</html>
